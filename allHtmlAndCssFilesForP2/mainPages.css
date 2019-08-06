@@ -1,0 +1,220 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+body{
+    margin: 0;
+    /* background-color: #b3c6ff; */
+    background-color: #b3c6ff;
+
+}
+.mainContent{
+    min-height: 600px
+}
+.page_wrapper{
+    font-family: "Times New Roman", Times, serif;
+}
+ul.nav {
+    
+    margin: 0px;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(78, 78, 78);
+  }
+  
+  ul.nav li {
+    float: left;
+    
+  }
+  
+  ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.nav li a:hover {
+    background-color: rgb(73, 73, 73);
+  }
+
+
+
+  
+.loginWidth{
+    margin: auto;
+    max-width: 1000px;
+    background-color: white;
+  
+}
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;}
+form {
+    border-radius: 20px;
+    border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0px ;
+  display: inline-block;
+
+ 
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(83, 76, 175);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 0px ;
+}
+
+img.avatar {
+  width: 40%;
+ 
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+.footer{
+
+    background-color: rgb(78, 78, 78);
+    min-height: 100px;
+    
+    
+   
+    height: 150px;
+    width: 100%;
+    color: #ffffff;/*white*/
+    padding: 10px;
+}
+
+.footerContent{
+    background-color: rgb(78, 78, 78);
+    margin: auto;
+    width: 1000px;
+    color: #ffffff;/*white*/
+    padding: 10px;
+}
+
+div.column50percent{
+    box-sizing: border-box;   /* So that padding/border is included in width */
+    width: 10%;
+    background-color: #9B2E20;/*grey dark orangish red*/
+    height: 150px;
+    color: #ffffff;/*white*/
+    padding: 10px;
+    margin: 10px;             /* This is ignored in table-cell display */
+    display: table-cell;
+}
+.clear_float{
+     clear: both;   /* Clears both left and right float */  
+} 
+div.column_33_table_cell {
+    box-sizing: border-box;   
+    width: 33.3333%;
+    
+    padding: 10px;
+    margin: 10px;             
+
+    display: table-cell;
+}
+ul {
+list-style-image:url(images/bullet_splat.png);
+}
+/*nav***********************************************************************/
+.navBackground{
+    width: 100%;
+   
+    background-color: rgb(78, 78, 78);
+}
+.navContent{
+    margin: auto;
+    max-width: 1200px;
+}
+#nav ul {
+list-style-image: none;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
+
+#nav li {
+float: left;
+}
+
+#nav li a {
+display: block;
+color: #FFF;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+#nav li a:hover:not(.active) {
+background-color: #111;
+}
+
+#nav .active {
+background-color: #9B2E20;
+}
+
+.header{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2em;
+}
+
+
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (width: 100%) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+
+
+
+
+}

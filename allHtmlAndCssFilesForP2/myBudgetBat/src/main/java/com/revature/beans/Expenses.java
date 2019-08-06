@@ -30,12 +30,12 @@ public class Expenses {
 	@Column(name="MONTH")
 	private String month;
 
-	public Expense() {
+	public Expenses() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Expense(int expenseId, double expenseAmount, int userId, String type, String month) {
+	public Expenses(int expenseId, double expenseAmount, int userId, String type, String month) {
 		super();
 		this.expenseId = expenseId;
 		this.expenseAmount = expenseAmount;
@@ -106,7 +106,7 @@ public class Expenses {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Expense other = (Expense) obj;
+		Expenses other = (Expenses) obj;
 		if (Double.doubleToLongBits(expenseAmount) != Double.doubleToLongBits(other.expenseAmount))
 			return false;
 		if (expenseId != other.expenseId)

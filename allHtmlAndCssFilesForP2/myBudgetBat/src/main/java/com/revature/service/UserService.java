@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.revature.beans.User;
-import com.revature.beans.UserDAO;
+import com.revature.dao.UserDAO;
 
 public class UserService {
 

@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.revature.beans.User;
+
 @Repository(value="userDAO")
 @Transactional
 public class UserDAOImpl implements UserDAO {

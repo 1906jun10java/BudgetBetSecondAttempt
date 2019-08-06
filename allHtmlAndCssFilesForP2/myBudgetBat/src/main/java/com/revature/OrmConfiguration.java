@@ -14,9 +14,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 
 
-
-
-
 @Configuration
 @EnableTransactionManagement 
 public class OrmConfiguration {
@@ -33,7 +30,7 @@ public class OrmConfiguration {
 		
 		@Bean
 		public DataSource getDataSource() {
-			System.out.println("DB_Driver: "+System.getenv("DB_Driver")+"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+			System.out.println("DB_Driver: "+System.getenv("DB_Driver"));
 
 			DriverManagerDataSource dsrc = new DriverManagerDataSource();
 			dsrc.setDriverClassName("oracle.jdbc.driver.OracleDriver");

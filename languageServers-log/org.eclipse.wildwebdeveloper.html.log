@@ -1,0 +1,24 @@
+
+LSP4E to org.eclipse.wildwebdeveloper.html:Content-Length: 820
+
+
+LSP4E to org.eclipse.wildwebdeveloper.html:{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":102760,"rootPath":"/C:/Users/mattr/GitRepo/boolean-b/BudgetBat/","rootUri":"file:///C:/Users/mattr/GitRepo/boolean-b/BudgetBat/","initializationOptions":{"format.enable":true,"embeddedLanguages":{"css":true,"javascript":true}},"capabilities":{"workspace":{"applyEdit":true,"symbol":{},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true}},"hover":{},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{},"formatting":{},"rangeFormatting":{},"definition":{},"codeAction":{},"codeLens":{},"documentLink":{},"rename":{}}},"clientName":"Eclipse IDE","trace":"off"}}
+org.eclipse.wildwebdeveloper.html to LSP4E:{"jsonrpc":"2.0","id":"1","result":{"capabilities":{"textDocumentSync":1,"completionProvider":{"resolveProvider":true,"triggerCharacters":[".",":","<","\"","=","/"]},"hoverProvider":true,"documentHighlightProvider":true,"documentRangeFormattingProvider":false,"documentLinkProvider":{"resolveProvider":false},"documentSymbolProvider":true,"definitionProvider":true,"signatureHelpProvider":{"triggerCharacters":["("]},"referencesProvider":true,"colorProvider":{},"foldingRangeProvider":true}}}
+LSP4E to org.eclipse.wildwebdeveloper.html:Content-Length: 52
+
+
+LSP4E to org.eclipse.wildwebdeveloper.html:{"jsonrpc":"2.0","method":"initialized","params":{}}
+LSP4E to org.eclipse.wildwebdeveloper.html:Content-Length: 149
+
+
+LSP4E to org.eclipse.wildwebdeveloper.html:{"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":{"settings":{"html":{"validate":{"styles":true,"scripts":true}}}}}}
+org.eclipse.wildwebdeveloper.html to LSP4E:{"jsonrpc":"2.0","id":0,"method":"client/registerCapability","params":{"registrations":[{"id":"36d5af02-c632-4838-8966-d195a4418866","method":"workspace/didChangeWorkspaceFolders","registerOptions":{}}]}}
+LSP4E to org.eclipse.wildwebdeveloper.html:Content-Length: 2163
+
+
+LSP4E to org.eclipse.wildwebdeveloper.html:{"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///C:/Users/mattr/GitRepo/boolean-b/BudgetBat/src/main/webapp/index.html","languageId":"html","version":1,"text":" \u003c!DOCTYPE html\u003e\r\n\u003chtml\u003e\r\n    \u003chead\u003e\r\n        \u003ctitle\u003eLogin\u003c/title\u003e\r\n        \u003clink rel\u003d\"stylesheet\" href\u003d\"styles.css\"\u003e\r\n    \u003c/head\u003e\r\n    \u003cbody\u003e\r\n    \u003cdiv style\u003d\"text-align:center\" class \u003d \"loginWidth\"\u003e\r\n    \u003cform modelAttribute\u003d\"login\" action\u003d\"loginprocess\" method\u003d\"post\"\u003e\r\n    \u003cdiv class\u003d\"imgcontainer\"\u003e\r\n      \r\n      \r\n    \u003cimg width\u003d\"300\" alt\u003d\"BuggetBat Logo\" src\u003d\"https://cdn.pixabay.com/photo/2017/10/05/15/35/bat-2819770_960_720.png\"\u003e\r\n  \r\n    \u003c/div\u003e\r\n  \r\n    \u003cdiv class\u003d\"container\"\u003e\r\n      \u003clabel for\u003d\"uname\"\u003e\u003cb\u003eUsername\u003c/b\u003e\u003c/label\u003e\r\n      \u003cinput type\u003d\"text\" path\u003d\"username\" placeholder\u003d\"Enter Username\" name\u003d\"userName\" required\u003e\r\n  \r\n      \u003clabel for\u003d\"psw\"\u003e\u003cb\u003ePassword\u003c/b\u003e\u003c/label\u003e\r\n      \u003cinput type\u003d\"password\" path\u003d\"password\" placeholder\u003d\"Enter Password\" name\u003d\"passWord\" required\u003e\r\n          \r\n      \u003cbutton type\u003d\"submit\" name \u003d \"login\"\u003eLogin\u003c/button\u003e\r\n      \r\n    \u003c/div\u003e\r\n  \r\n    \u003cdiv class\u003d\"container\" style\u003d\"background-color:#f1f1f1\"\u003e\r\n      \u003cbutton type\u003d\"button\" href \u003d \"registration.component.html\" class\u003d\"cancelbtn\"\u003e\r\n        \u003ca href\u003d\"registration.html\" \u003eSignup\u003c/a\u003e \r\n      \u003c/button\u003e\r\n      \r\n     \u003c!-- \u003cspan class\u003d\"psw\"\u003eForgot \u003ca href\u003d\"#\"\u003epassword?\u003c/a\u003e\u003c/span\u003e--\u003e\r\n    \u003c/div\u003e\r\n  \u003c/form\u003e\r\n  \u003c/div\u003e\r\n   \u003c/body\u003e\r\n\u003c/html\u003e\r\n\r\n"}}}
+LSP4E to org.eclipse.wildwebdeveloper.html:Content-Length: 38
+
+
+LSP4E to org.eclipse.wildwebdeveloper.html:{"jsonrpc":"2.0","id":0,"result":null}
+org.eclipse.wildwebdeveloper.html to LSP4E:{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/mattr/GitRepo/boolean-b/BudgetBat/src/main/webapp/index.html","diagnostics":[]}}
